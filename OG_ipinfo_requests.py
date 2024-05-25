@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# created by @HackHubAfrica
 import requests
 import json
 
