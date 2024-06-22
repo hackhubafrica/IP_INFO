@@ -10,7 +10,7 @@ def analyze_packets(packets):
         print(packet.summary())
 
 def main():
-    packet_count = 10   # Number of packets to capture
+    packet_count = 100   # Number of packets to capture
 
     captured_packets = capture_packets(packet_count)
     analyze_packets(captured_packets)
